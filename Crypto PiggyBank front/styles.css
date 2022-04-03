@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+}
+
+body{
+    background-color: #fff59d;
+
+}
+
+.header{
+    background-color: #1b3039;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+
+
+}
+
+.header .logo img{
+    height: 80px;
+    width: auto;
+}
+
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+    color: #fff59d;
+
+}
+
+.header .nav-links a{
+    color: #fff59d;
+    text-decoration: none;
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.15);
+
+}
+
+.header .connect-btn button{
+    font-weight: 700;
+    color: #fff59d;
+    background-color: #1b3039;
+    border: none;
+
+}
+.header .connect-btn button:hover{
+    transform: scale(1.15);
+
+}
+
+.header .nav-links .your{
+    padding-right: 0;
+
+}
