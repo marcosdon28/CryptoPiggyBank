@@ -14,17 +14,18 @@
         </div>
         <nav>
             <ul class="nav-links">
-                <li class="your">Your Wallet:</li>
-                <li><label class="user-wallet"></label>0x16986dc82b24987f66939635137e25836df2ea61</li>
+                <li class="your" style="display: none;">Your Wallet:</li>
+                <li style="display: none;" id="wallet" ><label class="user-wallet"></label>0x16986dc82b24987f66939635137e25836df2ea61</li>
             </ul>
         </nav>
-        <a href="#" class="connect-btn"><button>Connect Wallet</button></a>
+        <a href="#" class="connect-btn" ><button id="connect">Connect Wallet</button></a>
     </header>
     <div class="central-options">
-        <button>Deposit</button>
-        <button>Withdraw</button>
+        <button class="btn-left" id="btn-deposit">Deposit</button>
+        <button class="btn-right" id="btn-withdraw">Withdraw</button>
         <input type="text" name="" id="" placeholder="amount">
 
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
