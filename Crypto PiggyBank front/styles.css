@@ -38,18 +38,9 @@ body{
     display: inline-block;
     padding: 0 20px;
     color: #fff59d;
-
 }
 
-.header .nav-links a{
-    color: #fff59d;
-    text-decoration: none;
-}
 
-.header .nav-links li:hover{
-    transform: scale(1.15);
-
-}
 
 .header .connect-btn button{
     font-weight: 700;
@@ -70,7 +61,7 @@ body{
 
 .central-options{
     background-color: #1b3039;
-    width: 300px;
+    width: 284px;
     height: 300px;
     margin-top: 150px;
     display: block;
@@ -84,11 +75,12 @@ body{
     background-color: transparent;
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 10px;
+    margin-top: 15px;
     width: 120px;
     height: 35px;
     color: #fff59d;
-    border: none;    
+    border: none;
+    text-align: center;
 
 }
 
@@ -97,7 +89,8 @@ body{
 }
 
 .central-options input{
-    margin-top: 10px;
-    margin-left: auto;
-
+    width: 240px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 22.5px;
 }
