@@ -108,3 +108,9 @@ body{
     margin-top: 25px;
     margin-left: 25px;
 }
+
+.available{
+    color: #fff59d;
+    padding-top: 60px;
+    margin-left: 10px;
+}

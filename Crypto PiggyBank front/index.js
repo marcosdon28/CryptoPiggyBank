@@ -3,17 +3,27 @@
 const depositBtn = document.getElementById('btn-deposit');
 const withdrawBtn = document.getElementById('btn-withdraw');
 const connectWalletBtn = document.getElementById('connect');
-const walletLabel = document.getElementsById('wallet');
-const amount = document.getElementsById('amount');
+const walletLabel = document.getElementById('wallet');
+const amount = document.getElementById('amount');
+const confirmWithdraw = document.getElementById('btn-confirmWithdraw');
+const confirmDeposit = document.getElementById('btn-confirmDeposit');
 
-function selectDepositOption(){
-
-}
 
 function connectWallet(){
     walletLabel.style.display = 'initial';
 
 }
+function hideDepo(){
+    confirmWithdraw.style.display = 'initial'
+    confirmDeposit.style.display = 'none' 
+}
 
+function hideWithdraw(){
+    confirmWithdraw.style.display = 'none'
+    confirmDeposit.style.display = 'initial' 
+
+}
 //function usages
 connectWalletBtn.onclick = connectWallet;
+withdrawBtn.onclick= hideDepo;
+depositBtn.onclick = hideWithdraw;
