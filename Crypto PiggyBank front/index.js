@@ -7,10 +7,12 @@ const walletLabel = document.getElementById('wallet');
 const amount = document.getElementById('amount');
 const confirmWithdraw = document.getElementById('btn-confirmWithdraw');
 const confirmDeposit = document.getElementById('btn-confirmDeposit');
+const yourWallet = document.getElementById('your-wallet');
 
 
 function connectWallet(){
     walletLabel.style.display = 'initial';
+    yourWallet.style.display = 'initial';
 
 }
 function hideDepo(){

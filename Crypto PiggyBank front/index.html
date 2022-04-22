@@ -14,7 +14,7 @@
         </div>
         <nav>
             <ul class="nav-links">
-                <li class="your" style="display: none;">Your Wallet:</li>
+                <li style="display: none;" id="your-wallet"><label>Your Wallet:</label></li>
                 <li style="display: none;" id="wallet" ><label class="user-wallet"></label>0x16986dc82b24987f66939635137e25836df2ea61</li>
             </ul>
         </nav>
@@ -23,8 +23,9 @@
     <div class="central-options">
         <button class="btn-left" id="btn-deposit">Deposit</button>
         <button class="btn-right" id="btn-withdraw">Withdraw</button>
-        <button class="available">Available: <label></label></button>
         <input type="text" name="" id="amount" placeholder="amount">
+        <h3 class="your-balance">Your balance:</h3>
+        <label class="balance-label">50</label>
         <button class="btn-right" id="btn-confirmDeposit">Deposit</button>
         <button style="display: none;"class="btn-right" id="btn-confirmWithdraw">Withdraw</button>
         
